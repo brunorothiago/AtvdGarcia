@@ -1,7 +1,8 @@
 package com.example.cadastromanchaverde.repository;
 
-import com.example.cadastromanchaverde.model.Pessoa;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
+import com.example.cadastromanchaverde.model.Pessoa;
+
+public interface PessoaRepository extends CrudRepository<Pessoa, Long> {
 }

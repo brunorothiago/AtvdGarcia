@@ -1,11 +1,12 @@
 package com.example.cadastromanchaverde.controller;
 
-import com.example.cadastromanchaverde.model.Pessoa;
-import com.example.cadastromanchaverde.repository.PessoaRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+
+import com.example.cadastromanchaverde.model.Pessoa;
+import com.example.cadastromanchaverde.repository.PessoaRepository;
 
 @Controller
 public class PessoaController {
