@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cadastrodb
+    username: thiagobrunoro
+    password: 1234
+
+  sql:
+    init:
+      mode: always
+
+  thymeleaf:
+    cache: false
